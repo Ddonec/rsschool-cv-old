@@ -9,7 +9,7 @@ nav {
   width: 500px;
   height: 50px;
   margin: 0 5px 0 0;
-  background-color: gray;
+  background-color: #009999;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   vertical-align: text-bottom;
@@ -44,16 +44,10 @@ code {
   /* border: solid 2px tomato; */
 }
 .main-container {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    215deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(120, 120, 120, 0.28712871287128716) 0%,
-    rgba(51, 198, 190, 0.4314002828854314) 100%
-  );
+  background: rgb(48,230,192);
+  background: linear-gradient(339deg, rgba(48,230,192,0.7925764192139738) 0%, rgba(98,242,167,0.5007518796992481) 100%);
   display: flex;
   justify-content: space-between;
-  padding-top: 1%;
   margin: 0 auto;
   /* border: 2px solid rgb(0, 0, 0); */
   width: 1200px;
@@ -76,6 +70,8 @@ code {
   align-items: center;
 }
 .left-block {
+  margin-top: 10px;
+  box-shadow: #fff 10px;
   line-height: 2em;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -84,7 +80,7 @@ code {
   /* border: 2px solid rgb(246, 235, 30); */
   margin-left: 30px;
   width: 300px;
-  height: 103%;
+  height: 100%;
 }
 .ul {
   margin-bottom: 20px;
@@ -93,16 +89,22 @@ code {
   text-align: left;
   color: #fff;
 }
+.about{
+  margin-bottom: 20px;
+  padding: 20px 10px 20px 30px;
+  text-align: left;
+  color: #fff;
+}
 .info {
   /* border: 2px solid rgb(246, 235, 30); */
-  height: 85%;
-  background-color: gray;
+  height:2090px ;
+  background-color: #009999;
 }
 .photo-zone {
   /* border: 2px solid rgb(246, 235, 30); */
   width: 300px;
   height: 300px;
-  background-color: gray;
+  background-color: #009999;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
 }
@@ -123,6 +125,7 @@ code {
   border-top-right-radius: 20px;
 }
 #Main-photo {
+  width:280px;
   padding: 10px;
   border-radius: 50%;
 }
@@ -160,7 +163,7 @@ code {
 .right-line {
   margin-top: 40px;
   text-align: center;
-  background-color: gray;
+  background-color: #3fb79b ;
   float: right;
   width: 95%;
   height: 40px;
@@ -175,7 +178,7 @@ code {
   /* border: 2px solid rgb(246, 235, 30); */
   width: 80%;
 }
-footer > section {
+footer > div {
   background-color: gray;
   display: flex;
   justify-content: space-around;
@@ -193,4 +196,7 @@ footer > section {
 }
 #fst-p {
   width: 300px;
+}
+.neon{
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);   
 }
